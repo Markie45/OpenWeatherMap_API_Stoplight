@@ -152,6 +152,20 @@ paths:
                           type: string
                           example: ' 04n'
                           description: Weather icon id
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+            application/xml:
+              schema:
+                type: object
+                properties: {}
+            multipart/form-data:
+              schema:
+                $ref: '#/components/schemas/unauthorized_response'
       operationId: get-weather
       description: 'Access current weather data for any global location, including over 200,000 cities! Current weather is frequently updated based on global models and data from more than 40,000 weather stations.'
       parameters:
@@ -221,6 +235,9 @@ components:
           type: integer
         message:
           type: string
+      required:
+        - cod
+        - message
   securitySchemes:
     app_id:
       name: appid
