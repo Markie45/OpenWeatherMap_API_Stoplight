@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: Revised_OpenWeatherMap_API
   version: '2.5'
-  description: "Get your city's current weather, its daily forecast for 16 days, as well as a three-hour-interval forecast for 5 days. Helpful stats, graphics, and 'This Day in History' charts are available for your reference. Interactive maps show precipitation, clouds, pressure, and wind around your location's weather station. Data is available in JSON, XML, or HTML format. **Note**: This sample Swagger file covers the `current` endpoint only from the [OpenWeatherMap API](https://openweathermap.org/). <br/><br/> **Note**: All parameters are optional, but you must select at least one parameter. Calling the API by city ID (using the `id` parameter) will provide the most precise location results."
+  description: "Get your city's current weather, its daily forecast for 16 days, as well as a three-hour-interval forecast for 5 days. Helpful stats, graphics, and 'This Day in History' charts are available for your reference. Interactive maps show precipitation, clouds, pressure, and wind around your location's weather station. Data is available in JSON, XML, or HTML format. **Note**: This sample Swagger file covers the `current` endpoint from the [OpenWeatherMap API](https://openweathermap.org/) only. <br/><br/> **Note**: Parameters are optional, but you must select at least one. Calling the API by city ID (using the `id` parameter) will provide the most precise location results."
   contact:
     name: Marc Smyth
     url: 'https://openweathermap.org/api'
