@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: Revised_OpenWeatherMap_API
   version: '2.5'
-  description: 'Get the current weather, daily forecast for 16 days, and a three-hour-interval forecast for 5 days for your city. Helpful stats, graphics, and this day in history charts are available for your reference. Interactive maps show precipitation, clouds, pressure, wind around your location stations. Data is available in JSON, XML, or HTML format. **Note**: This sample Swagger file covers the `current` endpoint only from the OpenWeatherMap API. <br/><br/> **Note**: All parameters are optional, but you must select at least one parameter. Calling the API by city ID (using the `id` parameter) will provide the most precise location results.'
+  description: "Get your city's current weather, its daily forecast for 16 days, as well as a three-hour-interval forecast for 5 days. Helpful stats, graphics, and 'This Day in History' charts are available for your reference. Interactive maps show precipitation, clouds, pressure, and wind around your location's weather station. Data is available in JSON, XML, or HTML format. **Note**: This sample Swagger file covers the `current` endpoint only from the [OpenWeatherMap API](https://openweathermap.org/). <br/><br/> **Note**: All parameters are optional, but you must select at least one parameter. Calling the API by city ID (using the `id` parameter) will provide the most precise location results."
   contact:
     name: Marc Smyth
     url: 'https://openweathermap.org/api'
@@ -167,7 +167,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/unauthorized_response'
       operationId: get-weather
-      description: 'Access current weather data for any global location, including over 200,000 cities! Current weather is frequently updated based on global models and data from more than 40,000 weather stations.'
+      description: 'Access current weather data for any global location, including over 200,000 cities! Current weather is frequently updated based on global models and data from over 40,000 weather stations.'
       parameters:
         - schema:
             type: string
