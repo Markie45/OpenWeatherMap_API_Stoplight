@@ -1,1 +1,1 @@
-# OpenWeatherMap_API_Stoplight 
+# OpenWeatherMap API Stoplight 
