@@ -1,0 +1,46 @@
+curl --request GET \
+  --url 'https://api.openweathermap.org/data/2.5/weather?zip=08005&units=standard&q=Barcelona&lang=en&mode=json&appid=f1e415b992b55f13668514f1979ca872'
+
+  {
+  "coord": {
+    "lon": 2.16,
+    "lat": 41.39
+  },
+  "weather": [
+    {
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 299.27,
+    "feels_like": 298.96,
+    "temp_min": 298.15,
+    "temp_max": 300.93,
+    "pressure": 1019,
+    "humidity": 69
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 5.7,
+    "deg": 220
+  },
+  "clouds": {
+    "all": 20
+  },
+  "dt": 1592902747,
+  "sys": {
+    "type": 1,
+    "id": 6398,
+    "country": "ES",
+    "sunrise": 1592885914,
+    "sunset": 1592940516
+  },
+  "timezone": 7200,
+  "id": 3128760,
+  "name": "Barcelona",
+  "cod": 200
+}
