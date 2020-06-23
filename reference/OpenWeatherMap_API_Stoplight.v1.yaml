@@ -173,7 +173,7 @@ paths:
             type: string
           in: query
           name: zip
-          description: '**Zip code**. Search by zip code. *Example: 08004,es*. Note that if the country is not specified, the search uses USA as its default.'
+          description: '**Zip code**. Search by zip code. *Example: 08004,es*. If you do not specify the country, the search uses USA as its default.'
           required: true
         - schema:
             type: string
