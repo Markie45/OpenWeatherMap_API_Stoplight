@@ -1,6 +1,6 @@
 ## OpenWeatherMap API Stoplight 
 A **Documenting APIs: a guide for technical writers** course activity.
-Activity: Using **Stoplight Studios** visual editor to create an OpenAPI specification (reference) document.
+Activity: Using **Stoplight Studio's** visual editor to create an OpenAPI specification (reference) document.
 > Areas covered:
 - Repository creation in GitHub
 - Repo clone in Stoplight
